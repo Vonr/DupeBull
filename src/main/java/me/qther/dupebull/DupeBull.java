@@ -1,14 +1,12 @@
 package me.qther.dupebull;
 
 import org.bukkit.Material;
-import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.inventory.AbstractHorseInventory;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -90,6 +88,7 @@ public final class DupeBull extends JavaPlugin implements Listener {
                     }
                 }
 
+                // Old implementation of 11/11 dupe
                 /*
                 if (player.getActiveItem() != null && player.getActiveItem().getType() != Material.AIR) {
                     player.getWorld().dropItem(player.getLocation(), Objects.requireNonNull(player.getActiveItem()));
