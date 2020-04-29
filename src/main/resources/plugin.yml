@@ -1,0 +1,7 @@
+name: DupeBull
+version: ${project.version}
+main: DupeBull
+api-version: 1.13
+load: STARTUP
+authors: [Qther]
+description: DupeBull gives you dupes.
